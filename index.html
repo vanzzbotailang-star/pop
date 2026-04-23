@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+<title>Blue Cyber AI</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <h1>Blue Cyber AI</h1>
+</header>
+
+<main class="chat-wrapper">
+  <div id="chat" class="chat-box"></div>
+</main>
+
+<footer class="bottom-bar">
+  <input type="text" id="message" placeholder="Tulis pesan..." />
+  <button onclick="sendMessage()">➤</button>
+</footer>
+
+<section class="upload-section">
+  <input type="file" id="fileInput">
+  <button onclick="uploadFile()">Upload</button>
+</section>
+
+<section class="gallery" id="gallery"></section>
+
+<script src="script.js"></script>
+</body>
+</html>
